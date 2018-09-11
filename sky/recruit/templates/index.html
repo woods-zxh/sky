@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+   {% load staticfiles %}
+<head>
+    <meta charset="UTF-8">
+    <title>Skyparade Studio</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <script src={% static "js/reload.min.js"%}></script>
+</head>
+<body>
+<div class="home-container container">
+    <img src= {% static "img/photo/page.jpg" %} width="100%">
+    <a href="#c1"><img src= {% static "img/assets/向下.png" %} ></a>
+</div>
+<main class="main" >
+    <div class="intro-container container">
+        <div class="intro-placard">
+            <a id="c1"></a>
+            <div class="subtitle">用代码天马行空</div>
+            <span style="font-family:  Helvetica">Free your imagination with code</span>
+            <div class="photo-keyboard">
+               <img src={% static "img/photo/keyboard.jpg"%} width="100%">
+            </div>
+        </div>
+        <div class="container-inset"><a id="c2"></a>
+            <p class="main-title">天行工作室招！新！啦！</p>
+            <a href="#c2"><img src= {% static "img/assets/向下.png" %}></a>
+            <div class="intro-content">
+                <p class="chapter" style="line-height: 48px;text-indent:29px;">天行工作室成立于 2014 年，在一站式服务中心的支持下，天行在两年内完善了她的体制。天行现由七个部门一个小组组成，采用扁平化的管理模式和团队化的新人培养风格。在天行中，每年举办需求评审会，将成员根据其所长分成不同的团队进行项目的开发。在老成员的带领下，让新成员直接跟进整个产品的开发，熟悉产品的开发过程，磨合团队默契。在这里每个成员都能找到自己最默契的小伙伴。</p>
+            </div>
+            <div class="main-group">
+                <div class="group-13">
+                    <img src={% static "img/assets/create.png"%}>
+                    <p style="font-family: Helvetica-Bold;font-size:28px">CREATE</p>
+                </div>
+                <div class="group-13">
+                    <img src={% static "img/assets/web development.png"%} >
+                    <p style="font-family: Helvetica-Bold;font-size:28px">WEB DEVELOPMENT</p>
+                </div>
+                <div class="group-13">
+                    <img src={% static "img/assets/app design.png"%}>
+                    <p style="font-family: Helvetica-Bold;font-size:28px">APP DESIGN</p>
+                </div>
+            </div>
+            <a href="#c3"><img src={% static "img/assets/向下.png" style="margin-top:50px;margin-bottom: 45px;clear:left"%}></a>
+        </div>
+    </div>
+    <div class="structure-container container">
+        <div class="structure-bg">
+        <a id="c3"></a><p class="chapter" style="line-height: 41px;text-indent:54px;">我们根据当前互联网行业中不同的技术方向建立了不同的部门，在项目中他们分工合作，各显身手。也为初学者制定详细的学习计划，准备参考书单和优秀的学习网站，帮助大家开启属于自己的技术之路。但软件技术迭代快，领域广，学无止境。我们要求成员有较强的自学能力和自我激励能力，在学习中发现快乐，找到自己热爱的东西，持之以恒，如此方能达到人生的彼岸，回头看来路波涛汹涌，那都是我们流下的汗。</p>
+        <a href="#c4"><img src={% static "img/assets/向下.png" style="margin-bottom: 21px;"%}></a>
+        </div>
+        <div class="main-content"><a id="c4"></a>
+            <div class="img">
+                <img src={% static "img/assets/前端.png" %}>
+                <p class="img-title">前端</p>
+                <p class="img-content">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspWeb前端开发是互联网开发团队不可缺少的一个岗位，并且日益发展壮大。行业中前端开发是实现出精美的网站的保障，与后台对接建立数据交换机制。前端入门需要学习html/css/js，入门易精通难，必须有发自内心的喜爱才会更接近理想的水平，但对于还没找到路的萌新，作为进入互联网行业的第一步也是不错的选择。</p>
+            </div>
+            <div class="img">
+                <img src={% static "img/assets/后台.png" %}>
+                <p class="img-title">后台</p>
+                <p class="img-content">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp后台负责构建产品背后的算法和数据逻辑，需要学习数据库和服务器有关的知识。与前端相对应，后台不涉及用户界面，所有的一切发生在幕后。后台决定了程序是否能够健康有效地运行，一般来说项目中最多的难题发生在后台，所以它更像一个挑战。后台的学习曲线先慢后快，需要逻辑强、有耐心、细心且沉稳.</p>
+            </div>
+            <div class="img">
+                <img src={% static "img/assets/安卓.png"%}>
+                <p class="img-title">安卓</p>
+                <p class="img-content">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp安卓占有目前移动端市场的大半壁江山，安卓开发自然是前景广阔。安卓的知识涉及Java，Linux，数据库，网络协议，服务器等，需要什么学什么。安卓平台简化了传统软件开发和销售的流程，你可以和各部门合作做出安卓版app，也可以尝试自己完成全部工作的挑战，毕竟把自己的想法变成现实是最有成就感的事。</p>
+            </div>
+            <div class="img" style="clear:left">
+                <img src={% static "img/assets/研发.png"%} >
+                <p class="img-title">研发</p>
+                <p class="img-content">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp研发聚集了一群对技术充满敬畏和渴望的人，偏向于深挖技术和C/C++的应用。我们会想尽办法优化程序，也能基于需求产生解决方案。部门内既有参加学科竞赛、ACM的大佬，也充满了仅仅为了收获苦思冥想后豁然开朗的快乐的人。</p>
+            </div>
+            <div class="img">
+                <img src={% static "img/assets/产品.png"%}>
+                <p class="img-title">产品</p>
+                <p class="img-content"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp产品经理，项目的推动者，最大目标就是把产品做好。产品经理的职责各公司不相同，但大都要对接大部分岗位及外界，需要的知识面广。产品属于入门简单精通难的岗位。我们需要对互联网行业感兴趣，对市场、设计或技术有嗅觉，想做出好产品来让世界更好的实干家。</p>
+            </div>
+            <div class="img">
+                <img src={% static "img/assets/设计.png"%}>
+                <p class="img-title">设计</p>
+                <p class="img-content">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp设计主要负责产品的UI设计，是产品向用户表达自己的关键。进入设计部将会学习PS、AI、AE等软件。与绘画不同，UI设计不是表达自己，而是以用户为中心，为用户着想，因此优秀的设计师能够感受用户所感受的，提供用户所需要的。我们需要有创意、思维敏捷，且有共情能力的同学。</p>
+            </div>
+            <div class="img" style="clear:left">
+                <img src={% static "img/assets/乱七八糟小组.png" %}>
+                <p class="img-title">乱七八糟小组</p>
+                <p class="img-content">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp遵循纽曼的教育思想，我们在探索中互相学习！还在对一堆新名词感到一头雾水么？还在对未知的互联网行业感到迷茫么？加入我们，花一年时间去接触各种各样的技术，寻找你的兴趣，解开你好奇心的缰绳，任其驰骋！</p>
+            </div>
+            <div class="img_2">
+                <img src={% static "img/assets/游戏.png" %}>
+                <p class="img-title">游戏</p>
+                <p class="img-content">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp我们是目前校内唯一的专业游戏开发者聚集地，开发有趣而又独具创意的游戏是我们的追求。作为程序员，你会在这里学习到各种游戏引擎使用，掌握一些游戏编程语言，了解一些图形学基础和网络基础，为之后进入游戏开发行业打下坚实基础。作为艺术家，你将会有充足的项目实训和参赛机会来提高自己的美术能力，也可以去探索游戏设计上的各种可能性。加入我们，一起做一些有意思的事情吧！</p>
+            </div>
+            <div style="clear:left"><a href="#c5"><img src={% static "img/assets/向下.png" %} style="margin-top:32px;margin-bottom:26px;"></a></div>
+        </div>
+
+    </div>
+    <div class="join-container container">
+        <a id="c5"></a>
+        <p style="font-size:40px;padding-top:35px;margin:0">加入我们</p>
+        <div class="qqgroup">
+            <img src={% static "img/photo/招生群.jpg"%} style="width:207px;height:207px;">
+            <p style="font-size:18px">2018招新群:852747243</p>
+        </div>
+        <div class="join-content">
+            <form method="post" actions = "">
+                <div class="group-12">
+                    <div class="form-value">
+                        <input placeholder=" 姓名" name="name" type="text" required="required">
+                    </div>
+                    <div class="form-value">
+                        <input placeholder=" 专业" name="major" type="text" required="required">
+                    </div>
+
+                </div>
+                <div class="group-12">
+                    <div class="form-value">
+                        <input placeholder=" 年级" name="grade" type="text" required="required">
+                    </div>
+                    <div class="form-value">
+                        <select  name="job" required="required">
+                            <option selected disabled>申请部门/小组</option>
+                            <option value="前端">前端</option>
+                            <option value="后台">后台</option>
+                            <option value="安卓">安卓</option>
+                            <option value="研发">研发</option>
+                            <option value="产品">产品</option>
+                            <option value="设计">设计</option>
+                            <option value="乱七八糟小组">乱七八糟小组</option>
+                            <option value="游戏">游戏</option>
+                        </select>
+                    </div>
+                </div>
+                <textarea name="intro" placeholder=" 自我介绍" ></textarea>
+                <div class="group-12"style="clear:left;">
+                    <div class="form-value">
+                        <input placeholder=" QQ/微信" name="qq/wechat" type="text" required="required">
+                    </div>
+                </div>
+                <div class="group-12">
+                    <div class="form-value">
+                        <input placeholder=" 电话" name="phone" type="text" required="required">
+                        <button type="submit" style="float:right;">发送</button>
+                    </div>
+
+                </div>
+
+            </form>
+        </div>
+        <footer class="foot-container">
+            <p style="font-family: PingFangSC-Regular">&nbsp&nbsp&nbsp&nbsp用代码天马行空&nbsp//&nbspFree your imagination with code &nbsp&nbsp&nbsp&nbspCopyright © 2018 Skyparade Studio</p>
+        </footer>
+    </div>
+</main>
+
+
+</body>
+</html>
